@@ -1,0 +1,16 @@
+#TO CHECK THE GIVEN NUMBER IS IN THE LIST
+list=[1,2,3,4,5]
+a=int(input('enter a value:'))
+if a in list:
+    print('Available in the list')
+else:
+    print('Not available in the list')
+        
+ouput:
+=== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/gv.py ==
+enter a value:6
+Not available in the list
+
+=== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/gv.py ==
+enter a value:3
+Available in the list
