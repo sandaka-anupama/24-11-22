@@ -1,0 +1,14 @@
+#TO COUNT NUMBER OF NUMBERS IN THE LIST ARE EVEN 
+list1=[12,20,4,15,1]
+count=0
+for i in list1:
+    if i%2==0:
+        
+        count=count+i
+        
+        print('sum of even numbers: ',count)
+output:
+=== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/j1.py ==
+sum of even numbers:  12
+sum of even numbers:  32
+sum of even numbers:  36
