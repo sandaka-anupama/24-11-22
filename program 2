@@ -1,0 +1,11 @@
+#Minimum number in the list
+list1=[19,120,43,5,10]
+min=list1[0]
+for i in list1:
+    if i<min:
+        min=i
+        print('minimun number in the list is:',min)
+output:
+
+======================================================= RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/j1.py ======================================================
+minimun number in the list is: 5
